@@ -474,7 +474,7 @@ MonoBehaviour:
   m_StartPoint: {x: 0, y: 0, z: 0}
   m_EndPoint: {x: 0, y: -3, z: 0}
   m_Width: 0
-  m_CostModifier: -1
+  m_CostModifier: 0
   m_Bidirectional: 1
   m_AutoUpdatePosition: 0
   m_Area: 4
@@ -514,7 +514,7 @@ MonoBehaviour:
   m_StartPoint: {x: 0, y: 0, z: 0}
   m_EndPoint: {x: 0, y: -3, z: 0}
   m_Width: 0
-  m_CostModifier: -1
+  m_CostModifier: 0
   m_Bidirectional: 1
   m_AutoUpdatePosition: 0
   m_Area: 4
@@ -1707,7 +1707,7 @@ MonoBehaviour:
   m_StartPoint: {x: 0, y: 0, z: 0}
   m_EndPoint: {x: 0, y: -3, z: 0}
   m_Width: 0
-  m_CostModifier: -1
+  m_CostModifier: 0
   m_Bidirectional: 1
   m_AutoUpdatePosition: 0
   m_Area: 4
