@@ -7,9 +7,6 @@ public class EnemyAI : MonoBehaviour
 {
 
     public GameObject target;
-    public Transform ground_checker;
-
-    public LayerMask boost_surface;
 
     public float speed;
 
@@ -24,9 +21,9 @@ public class EnemyAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Physics.CheckSphere(ground_checker.position, 3f, boost_surface))
+        if (gameObject.transform.position.y < -5f)
         {
-            speed = 6f;
+            speed = 8f;
         } else
         {
             speed = 3f;
